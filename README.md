@@ -41,7 +41,7 @@
 # Bibliotecas para consumo de API: 📚
     - Fetch e Axios, XMLHttpRequest, Request
 
-## 🔹Exemplo usando Feth
+## 🔹Exemplo usando Fetch
 ```javascript
 fetch("URL_DA_API")
     .then(response => response.json())
