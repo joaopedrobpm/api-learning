@@ -14,7 +14,7 @@ function buscarcep(){
 
     cep.textContent = "CEP: ";
     localidade.textContent = "CIDADE: ";
-    logradouro.textContent = "BAIRRO: ";
+    logradouro.textContent = "LOGRADOURO: ";
     estado.textContent = "ESTADO: ";
 
     fetch(`https://viacep.com.br/ws/${meucep}/json/`)
@@ -28,5 +28,6 @@ function buscarcep(){
     })
 
     .catch(error => console.error('ERRO:', error));
+
 
 }
